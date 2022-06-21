@@ -1,0 +1,255 @@
+body {
+    background-color: #f2e2d2;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.header_bar {
+    background: #84c0c6;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(52, 51, 51);
+    margin-bottom: 5px;
+}
+
+header h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(52, 51, 51);
+    padding-bottom: 10px;
+}
+
+.menu {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #46b1c9;
+}
+
+.menu ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    width: 150px;
+    padding: 35px;
+    margin-right: 50px;
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(101, 101, 91);
+}
+
+.work_background {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work {
+    width: 850px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.work_box_img {
+    height: 240px;
+    width: 240px;
+    border: 15px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.first_app {
+    height: 280px;
+    width: 280px;
+    border-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin: 5px;
+    display: inline-block;
+    flex-direction: row;
+    object-fit: cover;
+    
+}
+
+.first_app h3 {
+    color: rgb(101, 101, 91);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.work_mini_box {
+    height: 240px;
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.work_mini_box_img {
+    height: 118.5px;
+    width: 240px;
+    border: 10px solid white;
+    display: inline-block;
+    flex: 1 0 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.work_box_img:hover {
+    height: 280x;
+    width: 280px;
+    border-color: black;
+}
+
+.work_mini_box_img:hover {
+    height: 138.5px;
+    width: 260px;
+    margin-left: -10px;
+    margin-right: 10px;
+    margin-top: -10px;
+    border-color: black;
+    display: inline;
+}
+
+#work:hover {
+    border-color: #9fb7b9;
+}
+
+.about {
+    height: 275px;
+    width: 100%;
+    text-align: center;
+    background-color: #9fb7b9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about img {
+    height: 200px;
+    width: 200px;
+    border: 10px solid white;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.about p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(101, 101, 91);
+    font-size: 15px;
+    list-style-type: none;
+    display: inline-block;
+    width: 500px;
+    margin-top: 55px;
+}
+
+.contact {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+}
+
+.contact ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(101, 101, 91);
+    font-size: 25px;
+    list-style-type: none;
+    display: inline-block;
+    width: 150px;
+    padding: 35px;
+    margin-right: 25px;
+}
+
+.contact ul li img {
+    height: 50px;
+    margin-left: 10px;
+    background-color: var(--background);
+}
+
+/* Smaller Laptops and Tablets */
+@media screen and (min-width: 391px) and (max-width: 778px) {
+    .menu {
+        height: 100px;
+    }
+    .work_background {
+        height: 850px;
+    }
+    .about {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 815px) {
+    .work_background {
+        height: 850px;
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 779px) {
+    .about {
+        height: 500px;
+    }
+    .about img {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+/* Duo */
+
+@media screen and (min-width: 391px) and (max-width: 720px) {
+    .menu {
+        height: 200px;
+    }
+    .work_background {
+        height: 1100px;
+    }
+}
+
+/* Phones */
+@media screen and (min-width: 1px) and (max-width: 535px) {
+    .header_bar {
+        height: 75px;
+    }
+    .menu {
+        height: 300px;
+    }
+    .work_background {
+        height: 1625px;
+    }
+    .about {
+        height: 785px;
+    }
+    .about p {
+        width: 259px;
+    }
+    .contact {
+        height: 200px
+    }
+}
