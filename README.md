@@ -11,7 +11,7 @@
 
 ## Overview of Site
 
-![MJ Shelton Portfolio](/Users/mjshelton/bootcamp/homework/hw-wk-02/portfolio_w2/assets/images/Portfolio Screenshot.jpg)
+![MJ Shelton Portfolio](https://i.imgur.com/yuKwmT0.jpg)
 
 ## Summary
 
